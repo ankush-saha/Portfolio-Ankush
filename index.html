@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankush Saha | Portfolio</title>
+    <meta name="description" content="Portfolio of Ankush Saha, Computer Science undergraduate and Software Developer.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">AS.</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section-hidden">
+        <div class="hero-content">
+            <h2 class="greeting">Hi, I'm</h2>
+            <h1 class="name">Ankush Saha</h1>
+            <h3 class="role">I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></h3>
+            <p class="hero-desc">Computer Science undergraduate passionate about building scalable solutions and data-driven applications.</p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">Let's Connect</a>
+                <a href="#projects" class="btn btn-secondary">View Work</a>
+            </div>
+            <div class="social-links-hero">
+                <a href="https://github.com/ankush-saha" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/ankushsaha" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:ankushsaha.work@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-graphics">
+            <!-- Abstract shapes for modern feel -->
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-hidden">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container glass-card">
+            <div class="about-text">
+                <p>
+                    I am a Computer Science undergraduate with strong fundamentals in <strong>Data Structures, Algorithms, and core CS concepts</strong>. 
+                    I'm currently pursuing my B.Tech at <em>Kalinga Institute of Industrial Technology, Bhubaneswar</em> (2023 - 2027) with a CGPA of 8.74.
+                </p>
+                <p>
+                    Experienced in building NLP-based applications using Python and Streamlit, I am seeking software engineering or data-driven roles 
+                    to apply my strong problem-solving and development skills. I thrive in environments where I can learn, build, and optimize systems.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-hidden">
+        <h2 class="section-title">Technical Arsenal</h2>
+        <div class="skills-grid">
+            <div class="skill-category glass-card">
+                <h3><i class="fas fa-code"></i> Languages</h3>
+                <div class="skill-tags">
+                    <span>Java</span>
+                    <span>Python</span>
+                    <span>C</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card">
+                <h3><i class="fas fa-laptop-code"></i> Web Dev</h3>
+                <div class="skill-tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>Streamlit</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card">
+                <h3><i class="fas fa-database"></i> Databases</h3>
+                <div class="skill-tags">
+                    <span>SQL</span>
+                    <span>MySQL</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card">
+                <h3><i class="fas fa-brain"></i> Core Concepts</h3>
+                <div class="skill-tags">
+                    <span>Data Structures & Algorithms</span>
+                    <span>OOP</span>
+                    <span>DBMS</span>
+                    <span>OS</span>
+                    <span>Networks</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card">
+                <h3><i class="fas fa-language"></i> NLP & ML</h3>
+                <div class="skill-tags">
+                    <span>spaCy</span>
+                    <span>scikit-learn</span>
+                    <span>TF-IDF</span>
+                    <span>Fuzzy Matching</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card">
+                <h3><i class="fas fa-tools"></i> Tools</h3>
+                <div class="skill-tags">
+                    <span>Git & GitHub</span>
+                    <span>Linux (WSL)</span>
+                    <span>IntelliJ IDEA</span>
+                    <span>VS Code</span>
+                    <span>Xilinx Vivado</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-hidden">
+        <h2 class="section-title">Featured Work</h2>
+        <div class="projects-container">
+            <div class="project-card glass-card">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>Resume Screening Web App</h3>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>Streamlit</span>
+                        </div>
+                    </div>
+                    <ul class="project-details">
+                        <li>Developed an NLP-based resume ranking system using TF-IDF and cosine similarity.</li>
+                        <li>Implemented automated resume parsing and keyword relevance scoring.</li>
+                        <li>Built a Streamlit interface for uploading resumes and comparing candidates efficiently.</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" class="btn-outline"><i class="fab fa-github"></i> View Code</a>
+                        <a href="#" class="btn-outline"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <!-- More projects can be added here easily -->
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section-hidden">
+        <h2 class="section-title">Certifications</h2>
+        <div class="cert-grid">
+            <div class="cert-card glass-card">
+                <div class="cert-icon"><i class="fab fa-aws"></i></div>
+                <div class="cert-info">
+                    <h3>AWS Academy Graduate - Cloud Architecting</h3>
+                    <p>Amazon Web Services (AWS) Academy • 60 hrs • Dec 2024</p>
+                    <a href="https://www.credly.com/badges/125398e4-31e2-4cc2-aaff-3a309b53bd15/print" target="_blank" class="cert-link">View Credential <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="cert-card glass-card">
+                <div class="cert-icon"><i class="fab fa-aws"></i></div>
+                <div class="cert-info">
+                    <h3>AWS Academy Graduate - Cloud Foundations</h3>
+                    <p>Amazon Web Services (AWS) Academy • 20 hrs • Dec 2024</p>
+                    <a href="https://www.credly.com/badges/ff15410e-9870-4756-895c-821a76441505/print" target="_blank" class="cert-link">View Credential <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-hidden">
+        <div class="contact-box glass-card">
+            <h2>Let's build something amazing together.</h2>
+            <p>I'm currently looking for new opportunities. My inbox is always open.</p>
+            <a href="mailto:ankushsaha.work@gmail.com" class="btn btn-primary btn-large">Say Hello</a>
+            <div class="footer-socials">
+                <a href="https://github.com/ankush-saha" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://linkedin.com/in/ankushsaha" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <p><i class="fas fa-phone"></i> +91 8910379300</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Designed & Built by Ankush Saha © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
